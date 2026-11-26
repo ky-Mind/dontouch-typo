@@ -1,0 +1,11 @@
+{
+ "packs": [
+  {
+   "id": "omni",
+   "lang": "id",
+   "label": "OmniVoice",
+   "provider": "omnivoice",
+   "clips": 66
+  }
+ ]
+}

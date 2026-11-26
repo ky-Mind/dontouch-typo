@@ -1,0 +1,10 @@
+{
+  "name": "touchtyping",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "cf": "^1.0.0-rc.2",
+    "wrangler": "^4.166.0"
+  }
+}
