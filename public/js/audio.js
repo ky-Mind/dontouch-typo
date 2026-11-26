@@ -42,8 +42,8 @@ TT.Audio = (function () {
   }
   function prefetch(name) {
     if (!raw[name]) raw[name] = Promise.all([
-      fetch(`/sfx/${name}.wav?v=5`).then(r => { if (!r.ok) throw 0; return r.arrayBuffer(); }),
-      fetch(`/sfx/${name}.json?v=5`).then(r => r.json())
+      fetch(`/sfx/${name}.wav?v=6`).then(r => { if (!r.ok) throw 0; return r.arrayBuffer(); }),
+      fetch(`/sfx/${name}.json?v=6`).then(r => r.json())
     ]).catch(e => { delete raw[name]; throw e; });
     return raw[name];
   }
@@ -115,11 +115,11 @@ TT.Audio = (function () {
 
   /* ---------------- tutor voice ---------------- */
   async function listPacks() {
-    if (!packs) { try { packs = (await fetch("/voice/packs.json?v=5").then(r => r.json())).packs || []; } catch (e) { packs = []; } }
+    if (!packs) { try { packs = (await fetch("/voice/packs.json?v=6").then(r => r.json())).packs || []; } catch (e) { packs = []; } }
     return packs;
   }
   async function linesFor(lang) {
-    if (!lines[lang]) { try { lines[lang] = await fetch(`/voice/lines-${lang}.json?v=5`).then(r => r.json()); } catch (e) { lines[lang] = {}; } }
+    if (!lines[lang]) { try { lines[lang] = await fetch(`/voice/lines-${lang}.json?v=6`).then(r => r.json()); } catch (e) { lines[lang] = {}; } }
     return lines[lang];
   }
   /** resolve which pack speaks: explicit pack (if it matches the language), else best pack for the language, else browser */
@@ -142,7 +142,7 @@ TT.Audio = (function () {
     const lang = cfg.voiceLang || "id";
     const pack = await resolvePack();
     if (pack) {
-      const el = new Audio(`/voice/${pack.id}/${id}.mp3?v=5`);
+      const el = new Audio(`/voice/${pack.id}/${id}.mp3?v=6`);
       el.preservesPitch = true; voiceEl = el; applyVolumes();
       el.play().catch(async () => speak((await linesFor(lang))[id], lang));
       el.onerror = async () => speak((await linesFor(lang))[id], lang);

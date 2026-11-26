@@ -1,0 +1,66 @@
+key_backtick	2.74s	0.83	tekan tanda aksen dengan kelinking kiri
+key_1	3.18s	0.67	tekan angka 1 dengan kelinking kiri
+key_2	3.15s	0.86	tekan angka 2 dengan jari manis kiri
+key_3	3.2s	0.86	tekan angka 3 dengan jari tengah kiri
+key_4	3.27s	0.83	tekan angka 4 dengan telunjuk kiri
+key_5	3.04s	0.83	tekan angka 5 dengan telunjuk kiri
+key_6	2.91s	0.83	tekan angka 6 dengan telunjuk kanan
+key_7	3.11s	1.0	tekan angka tujuh dengan telunjuk kanan
+key_8	3.35s	1.0	tekan angka delapan dengan jari tengah kanan
+key_9	3.61s	1.0	tekan angka sembilan dengan jari manis kanan
+key_0	3.46s	0.67	tekan angka 0 dengan kelinking kanan
+key_minus	3.4s	0.83	tekan tanda minus dengan kelinking kanan
+key_equal	3.29s	0.86	tekan tanda sama dengan dengan klingking kanan
+key_q	2.6s	0.8	tekan ki dengan kelinking kiri
+key_w	2.84s	0.83	tekan way dengan jari manis kiri
+key_e	2.65s	1.0	tekan e dengan jari tengah kiri
+key_r	2.66s	0.8	tekan r dengan telunjuk kiri
+key_t	2.59s	0.67	tekanta dengan telunjuk kiri
+key_y	2.49s	0.8	tekan ya dengan telunjuk kanan
+key_u	2.57s	1.0	tekan u dengan telunjuk kanan
+key_i	2.88s	1.0	tekan i dengan jari tengah kanan
+key_o	2.81s	1.0	tekan o dengan jari manis kanan
+key_p	2.77s	0.6	tekan per dengan klingking kanan
+key_lbracket	3.43s	0.86	tekan kurung siku buka dengan klingking kanan
+key_rbracket	3.44s	0.86	tekan kurung siku tutup dengan kelinking kanan
+key_backslash	3.41s	0.86	tekan garis miring terbalik dengan klingking kanan
+key_a	2.67s	0.8	tekan a dengan klingking kiri
+key_s	2.75s	0.83	tekan s dengan jari manis kiri
+key_d	2.67s	0.83	tekan d dengan jari tengah kiri
+key_f	2.92s	0.8	tekan f dengan telunjuk kiri
+key_g	2.45s	0.8	tekan g dengan telunjuk kiri
+key_h	1.89s	0.8	tekan h dengan telunjuk kanan
+key_j	1.86s	0.8	tekan saja dengan telunjuk kanan
+key_k	2.25s	0.73	tekankah dengan jari tengah kanan
+key_l	2.36s	0.83	tekan l dengan jari manis kanan
+key_semicolon	2.89s	0.83	tekan titik koma dengan kelinking kanan
+key_quote	2.97s	0.83	tekan tanda petik dengan kelinking kanan
+key_z	2.25s	0.4	pekan z dengan kelinking kiri
+key_x	2.72s	0.83	tekan x dengan jari manis kiri
+key_c	2.6s	0.83	tekan c dengan jari tengah kiri
+key_v	2.52s	0.8	tekan v dengan telunjuk kiri
+key_b	2.54s	0.8	tekan b dengan telunjuk kiri
+key_n	2.5s	0.8	tekan end dengan telunjuk kanan
+key_m	2.3s	0.6	pekan m dengan telunjuk kanan
+key_comma	2.72s	1.0	tekan koma dengan jari tengah kanan
+key_period	2.86s	1.0	tekan titik dengan jari manis kanan
+key_slash	3.21s	0.83	tekan garis miring dengan kelinking kanan
+key_space	2.67s	1.0	tekan spasi dengan ibu jari
+shift_left	3.03s	0.67	tahan ship kiri dengan kelinking kiri
+shift_right	3.07s	0.67	tahan ship kanan dengan kelinking kanan
+welcome	13.91s	0.88	halo selamat datang di touch typing letakkan telunjuk kiri di huruf f dan telunjuk kanan di huruf j jari lainnya berjajar di baris tengah dan ibu jari di atas spasi
+start	3.66s	1.0	siap mulai mengetik kapan pun kamu siap
+careful	4.62s	0.88	pelan saja utamakan ketepatan kecepatan akan datang sendiri
+look	3.59s	1.0	perhatikan jarimu dan usahakan tidak melihat keyboard
+good	1.19s	1.0	bagus
+great	1.64s	1.0	mantap lanjutkan
+done	2.56s	1.0	pelajaran selesai kerja bagus
+perfect	2.1s	0.67	sempurna 5 bintang
+fail	3.63s	0.82	belum lolos tidak apa apa coba lagi dengan pelan
+best	2.54s	1.0	rekor baru kamu makin cepat
+badge	2.91s	1.0	selamat kamu mendapat pencapaian baru
+caps	3.55s	1.0	caps lock sedang aktif matikan dulu ya
+preview	5.58s	0.67	halo aku tutur mengetikmu ayo belajar mengetik 10 jari bersama sama
+onb_bumps	7.79s	0.71	rabat onjolan kecil di huruf f dan j tunjolan itu membantu jarimu menemukan posisi tanpa melihat keyboard
+onb_colors	6.13s	1.0	hijau berarti benar merah berarti salah dan biru menunjukkan huruf berikutnya
+onb_fix	7.24s	0.76	kalau salah tekan backspace untuk memperbaikinya kesalahan tetap dihitung jadi pelan pelan saja terima kasih kerana menonton

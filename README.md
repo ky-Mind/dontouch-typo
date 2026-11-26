@@ -27,7 +27,8 @@ public/            situs statis (di-deploy ke Cloudflare Workers static assets)
 tools/
   make_sfx.py      render suara sintetis
   slice_samples.py potong rekaman keyboard menjadi sprite per ketukan
-  gen_voice.py     buat paket tutor suara (ElevenLabs "Putra" atau OmniVoice)
+  gen_voice.py     buat paket tutor suara lewat API (ElevenLabs "Putra" atau OmniVoice)
+  align_pack.py    potong satu rekaman panjang menjadi klip per baris (faster-whisper)
 tests/engine.test.cjs
 ```
 
@@ -41,11 +42,16 @@ npx cf deploy                           # deploy ke Cloudflare
 
 ## Tutor suara ElevenLabs (Putra)
 
+Paket `putra-id` dan `putra-en` dibuat dengan satu generate per bahasa di web app ElevenLabs (suara "Putra", model Multilingual v2; teks dari `tools/voice_lines*.json`, satu baris per paragraf). Rekaman panjang itu lalu dipotong per baris dengan pengenalan suara:
+
 ```bash
-export ELEVENLABS_API_KEY=...
-python3 tools/gen_voice.py elevenlabs --lang id --pack putra-id --label "Putra (ElevenLabs)"
-python3 tools/gen_voice.py elevenlabs --lang en --pack putra-en --label "Putra (ElevenLabs)"
+pip install faster-whisper
+python3 tools/align_pack.py rekaman-id.mp3 --lang id --pack putra-id --label "Putra (ElevenLabs)"
+python3 tools/align_pack.py rekaman-en.mp3 --lang en --pack putra-en --label "Putra (ElevenLabs)"
+# baris berurutan yang salah potong bisa dipotong ulang berdasarkan jeda: --fix key_r,key_t,key_y
 ```
+
+Alternatif lewat API (butuh kredit di akun API key): `python3 tools/gen_voice.py elevenlabs --lang id --pack putra-id --label "Putra (ElevenLabs)"`.
 
 Paket baru otomatis muncul di Pengaturan › Tutor suara dan dipakai pada mode "Otomatis".
 

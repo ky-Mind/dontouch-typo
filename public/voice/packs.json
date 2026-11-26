@@ -6,6 +6,20 @@
    "label": "OmniVoice",
    "provider": "omnivoice",
    "clips": 66
+  },
+  {
+   "id": "putra-id",
+   "lang": "id",
+   "label": "Putra (ElevenLabs)",
+   "provider": "elevenlabs",
+   "clips": 66
+  },
+  {
+   "id": "putra-en",
+   "lang": "en",
+   "label": "Putra (ElevenLabs)",
+   "provider": "elevenlabs",
+   "clips": 66
   }
  ]
 }

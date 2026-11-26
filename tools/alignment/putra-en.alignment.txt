@@ -1,0 +1,66 @@
+key_backtick	2.08s	0.77	press back tick with your left pinky
+key_1	2.08s	0.83	press 1 with your left pinky
+key_2	2.39s	0.86	press 2 with your left ring finger
+key_3	2.58s	0.86	press 3 with your left middle finger
+key_4	2.96s	0.86	press 4 with your left index finger
+key_5	2.96s	0.86	press 5 with your left index finger
+key_6	2.88s	0.86	press 6 with your right index finger
+key_7	2.52s	0.86	press 7 with your right index finger
+key_8	2.62s	0.86	press 8 with your right middle finger
+key_9	2.5s	0.86	press 9 with your right ring finger
+key_0	2.35s	0.83	press 0 with your right pinky
+key_minus	2.59s	1.0	press minus with your right pinky
+key_equal	2.53s	1.0	press equals with your right pinky
+key_q	2.18s	1.0	press q with your left pinky
+key_w	2.71s	1.0	press w with your left ring finger
+key_e	2.65s	1.0	press e with your left middle finger
+key_r	2.86s	1.0	press r with your left index finger
+key_t	2.86s	1.0	press t with your left index finger
+key_y	2.88s	1.0	press y with your right index finger
+key_u	2.45s	0.86	press you with your right index finger
+key_i	2.36s	1.0	press i with your right middle finger
+key_o	2.53s	1.0	press o with your right ring finger
+key_p	2.28s	1.0	press p with your right pinky
+key_lbracket	2.81s	1.0	press left bracket with your right pinky
+key_rbracket	3.04s	0.93	press the right bracket with your right pinky
+key_backslash	2.79s	1.0	press backslash with your right pinky
+key_a	2.44s	1.0	press a with your left pinky
+key_s	2.71s	1.0	press s with your left ring finger
+key_d	2.8s	1.0	press d with your left middle finger
+key_f	2.92s	1.0	press f with your left index finger
+key_g	3.15s	1.0	press g with your left index finger
+key_h	3.01s	1.0	press h with your right index finger
+key_j	2.64s	1.0	press j with your right index finger
+key_k	2.81s	1.0	press k with your right middle finger
+key_l	2.91s	1.0	press l with your right ring finger
+key_semicolon	3.23s	1.0	press semicolon with your right pinky
+key_quote	3.21s	1.0	press the quote key with your right pinky
+key_z	2.41s	1.0	press z with your left pinky
+key_x	2.4s	1.0	press x with your left ring finger
+key_c	2.61s	1.0	press c with your left middle finger
+key_v	2.88s	0.86	press b with your left index finger
+key_b	3.09s	1.0	press b with your left index finger
+key_n	3.22s	1.0	press n with your right index finger
+key_m	2.89s	1.0	press m with your right index finger
+key_comma	2.43s	1.0	press comma with your right middle finger
+key_period	2.71s	0.8	press period it with your right wing finger
+key_slash	2.7s	1.0	press slash with your right pinky
+key_space	2.42s	0.77	press the spacebar with your thumb
+shift_left	2.92s	0.89	hold the left chip key with your left pinky
+shift_right	2.72s	1.0	hold the right shift key with your right pinky
+welcome	13.89s	0.92	hi welcome to touch typing rest your left index finger on f and your right index finger on j feel the small bumps your other fingers line up on the home row and your thumbs rest on the spacebar
+start	2.71s	1.0	ready start typing whenever you are
+careful	3.72s	1.0	take it slow accuracy first speed will follow
+look	3.12s	1.0	watch your fingers and try not to look at the keyboard
+good	0.97s	1.0	nice
+great	1.62s	1.0	great keep going
+done	2.24s	1.0	lesson complete good job
+perfect	2.31s	1.0	perfect five stars
+fail	4.17s	1.0	not quite yet thats okay try again slowly
+best	2.97s	1.0	new personal best youre getting faster
+badge	3.04s	1.0	congratulations you earned a new achievement
+caps	3.18s	1.0	caps lock is on please turn it off
+preview	5.47s	0.92	hi im your typing tutor lets learn to type with all 10 fingers
+onb_bumps	5.39s	1.0	feel the bumps on f and j they help you find home without looking
+onb_colors	5.26s	1.0	green means correct red means a mistake and blue shows the next character
+onb_fix	7.65s	1.0	made a mistake press backspace to fix it it still counts as a mistake so go slow
